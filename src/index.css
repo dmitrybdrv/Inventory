@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Federation';
+  src: local('Federation'), url(Assets/Fonts/AnyConv.com__federation.woff) format('woff'),
+  url(Assets/Fonts/AnyConv.com__federation.woff2) format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Johnny5';
+  src: local('Johnny5'), url(Assets/Fonts/AnyConv.com__Johnny5.woff) format('woff'),
+  url(Assets/Fonts/AnyConv.com__Johnny5.woff2) format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LCD';
+  src: local('LCD'), url(Assets/Fonts/AnyConv.com__lcdfont.woff) format('woff'),
+  url(Assets/Fonts/AnyConv.com__lcdfont.woff2) format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TET';
+  src: local('TET'), url(Assets/Fonts/AnyConv.com__tet.woff) format('woff'),
+  url(Assets/Fonts/AnyConv.com__tet.woff2) format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OCR-A';
+  src: local('OCR-A'), url(Assets/Fonts/AnyConv.com__OCR-A.woff) format('woff'),
+  url(Assets/Fonts/AnyConv.com__OCR-A.woff2) format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Blender';
+  src: local('Blender'), url(Assets/Fonts/BlenderMedium.woff) format('woff'),
+  url(Assets/Fonts/BlenderMedium.woff2) format('woff2');
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+
+  /*custom backGround from generator https://10015.io/tools/css-background-pattern-generator*/
+  background-image: radial-gradient(#354649 1px, transparent 1px);
+  background-size: 87px 87px;
+  background-color: #0c0c0c;
+
+  font-family: 'Inventor', 'Johnny5', 'LCD', 'TET', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
