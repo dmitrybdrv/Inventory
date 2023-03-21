@@ -11,7 +11,6 @@ specifiers:
   '@types/react-router-dom': ^5.3.3
   '@vitejs/plugin-react': ^3.1.0
   axios: ^1.3.4
-  deploy: ^1.0.3
   gh-pages: ^5.0.0
   jest: ^29.5.0
   nanoid: ^4.0.1
@@ -31,7 +30,6 @@ dependencies:
   '@types/node-sass': 4.11.3
   '@types/react-router-dom': 5.3.3
   axios: 1.3.4
-  deploy: 1.0.3
   gh-pages: 5.0.0
   nanoid: 4.0.1
   node-sass: 8.0.0
@@ -1745,11 +1743,6 @@ packages:
   /depd/2.0.0:
     resolution: {integrity: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==}
     engines: {node: '>= 0.8'}
-    dev: false
-
-  /deploy/1.0.3:
-    resolution: {integrity: sha512-muJVK8p8idCiE+8JaQzvGD+vS3KtoJYx6jLu0Bq36vl7bOJVpm9dZGgoHFi89kI88oHdwa32TUTZ0exYyT0KLQ==}
-    hasBin: true
     dev: false
 
   /detect-newline/3.1.0:
