@@ -1,17 +1,19 @@
+import {store} from "@/app/store";
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Inventory from './Inventory'
+import Inventory from '@/app/Inventory'
 import './index.css'
-import {BrowserRouter} from "react-router-dom";
 import {Provider} from "react-redux";
-import {store} from "./store/Store";
+import {BrowserRouter} from "react-router-dom";
+
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 
-    <Provider store={store}>
-        <BrowserRouter>
-            <Inventory />
-        </BrowserRouter>
-    </Provider>
+<Provider store={store}>
+    <BrowserRouter>
+        <Inventory />
+    </BrowserRouter>
+</Provider>
+
 
 )

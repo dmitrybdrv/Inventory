@@ -1,0 +1,15 @@
+@import "src/common/mixins";
+
+nav {
+  @include container();
+  background: #3f5a5d;
+  width: fit-content;
+
+  a {
+    text-decoration: none;
+    font-family: 'Federation', sans-serif;
+    padding: 0 20px;
+  }
+
+
+}
