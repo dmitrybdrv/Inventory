@@ -30,23 +30,23 @@ a {
   @include container();
   justify-content: flex-start;
   transition: 0.8s ease-in-out;
-  font-family: 'Federation', sans-serif;
+  font-family: sans-serif;
   gap: 15px;
   color: #fff;
 
   .listsMenu {
-    background: #022644;
+    //background: #022644;
     display: grid;
     row-gap: 10px;
   }
   .commonMenu {
-    background: #4d1414;
+    //background: #4d1414;
     display: grid;
     row-gap: 10px;
     text-align: center;
   }
   .addMenu {
-    background: #45144d;
+    //background: #45144d;
     display: grid;
     row-gap: 10px;
   }
